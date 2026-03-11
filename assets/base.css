@@ -786,6 +786,7 @@ p {
   line-height: 1.45455em;
   font-weight: 300;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .menu-navigation {
   margin-top: 0.5em;
@@ -954,10 +955,7 @@ p {
 .business-info-address,
 .business-bio {
   color: #000000;
-  font-size: 20px;
   text-align: center;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
 }
 .has-images .menu-item-description,
 .has-images .business-info-address,
@@ -1254,6 +1252,12 @@ p {
   .profile-description p {
     font-size: 1.14286em;
     line-height: 1.5em;
+  }
+  .profile-description img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
   }
   .profile-menu {
     margin-top: 0.64286em;
